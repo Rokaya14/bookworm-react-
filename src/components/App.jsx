@@ -7,7 +7,8 @@ class App extends Component {
   state = {}
   render() {
     return (
-      <div className="ui container" >
+      <div className="container" >
+        
         <Router>
           <Switch>
             <Route exact path="/" component={HomePage} />

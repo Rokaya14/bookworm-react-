@@ -1,0 +1,11 @@
+.valid-feedback{
+  display: block;
+}
+.notValid{
+  border:1.5px solid #bd4341;
+  background-color: #fff7f7;
+}
+.Valid {
+  border: 2px solid rgb(60, 207, 60);
+}
+git 
