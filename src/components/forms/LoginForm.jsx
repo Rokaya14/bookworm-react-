@@ -21,8 +21,9 @@ class LoginForm extends Component {
     if(!errors.email ||!errors.password)
     { 
       this.setState({loading:true})
+      console.log(this.state.data);
     }
-    this.setState({ errors })
+    this.setState({ errors });
     e.preventDefault()
   }
 
